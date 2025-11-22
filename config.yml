@@ -1,4 +1,4 @@
-baseURL: "https://arjunrana.github.io/" 
+baseURL: "https://arjunrkaushik.github.io/" 
 title: Arjun Ramesh Kaushik
 theme: PaperMod
 
@@ -12,7 +12,7 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
+        - name: Latest News
           url: books/
           weight: 5 
         - name: Papers
@@ -21,21 +21,21 @@ menu:
         - name: Courses
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        # - name: Blog
+        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #   weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Arjun's research papers, books, course materials, data, curriculum vitae, and contact information."
+    author: Arjun Ramesh Kaushik
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "November 2025"
     defaultTheme: light
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -54,50 +54,52 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Arjun Ramesh Kaushik
+          subtitle: "Arjun is a 2nd-year Ph.D. candidate in Computer Science from the State University of New York at Buffalo. He is jointly advised by Dr. Nalini Ratha and Dr. Venu Govindaraju. Previously, he completed his B.E. degree in Electronics & Instrumentation at the Birla Institute of Technology and Sciences Pilani, Hyderabad (2017 - 2021) and his Masters degree in Computer Science from the State University of New York at Buffalo (2022 - 2024). Currently, his research interests lie in Hyperbolic geometry, Diffusion models, and Video understanding."
           imageUrl: "Arjun_Ramesh_Kaushik_edited.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
             - name: Papers
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
+            # - name: Data
+            #   url: data/
+            - name: Latest News
               url: books/
             - name: Courses
               url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
+          url: mailto:kaushik3@buffalo.edu
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
         - name: Location
           url: location/
         - name: Office Hours
           url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=F4gJbXAAAAAJ&hl=en
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/arjun-ramesh-kaushik/
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://github.com/arjunrkaushik
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
+        # - name: Twitter
+        #   url: https://x.com/pmichaillat
+        # - name: Bluesky
+        #   url: https://bsky.app/profile/pmichaillat.bsky.social
 
     assets:
         disableScrollBarStyle: true
