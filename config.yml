@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Arjun Ramesh Kaushik
           subtitle: "I am a second-year Ph.D. student in Computer Science at the State University of New York at Buffalo, jointly advised by Dr. Nalini Ratha and Dr. Venu Govindaraju. My current research interests include hyperbolic geometry, diffusion models, and video understanding."
-          imageUrl: "Arjun_Ramesh_Kaushik.png"
+          imageUrl: "Arjun_Ramesh_Kaushik_edited.png"
           imageWidth: 180
           imageHeight: 180
           buttons:
