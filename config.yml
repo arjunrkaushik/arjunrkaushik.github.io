@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://arjunrana.github.io/" 
+title: Arjun Ramesh Kaushik
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Professor Dr von Igelfeld
           subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          imageUrl: "Arjun_Ramesh_Kaushik_edited.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
