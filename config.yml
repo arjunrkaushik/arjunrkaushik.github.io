@@ -55,10 +55,10 @@ params:
     profileMode:
           enabled: true
           title: Arjun Ramesh Kaushik
-          subtitle: "Arjun is a 2nd-year Ph.D. candidate in Computer Science from the State University of New York at Buffalo. He is jointly advised by Dr. Nalini Ratha and Dr. Venu Govindaraju. Previously, he completed his B.E. degree in Electronics & Instrumentation at the Birla Institute of Technology and Sciences Pilani, Hyderabad (2017 - 2021) and his Masters degree in Computer Science from the State University of New York at Buffalo (2022 - 2024). Currently, his research interests lie in Hyperbolic geometry, Diffusion models, and Video understanding."
+          subtitle: "I am a second-year Ph.D. student in Computer Science at the State University of New York at Buffalo, jointly advised by Dr. Nalini Ratha and Dr. Venu Govindaraju. My current research interests include hyperbolic geometry, diffusion models, and video understanding."
           imageUrl: "Arjun_Ramesh_Kaushik_edited.png"
           imageWidth: 160
-          imageHeight: 160
+          imageHeight: 200
           buttons:
             - name: Papers
               url: papers/
@@ -107,7 +107,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Arjun Ramesh Kaushik"
       icon: favicon.ico
       iconHeight: 18
 
