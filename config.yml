@@ -33,7 +33,7 @@ params:
     author: Arjun Ramesh Kaushik
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "November 2025"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: false
     ShowShareButtons: false
