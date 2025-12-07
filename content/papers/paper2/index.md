@@ -1,17 +1,17 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+title: "Forget Less by Learning from Parents through Hierarchical Relationships" 
+# date: 2004-12-28
+tags: ["Continual Learning","Catastrophic Forgetting","Diffusion Models"]
+author: ["<strong>Arjun Ramesh Kaushik</strong>", "Naresh Kumar Devulapally", "Vishnu Suresh Lokhande", "Nalini Ratha", "Venu Govindaraju"]
+# description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
+summary: "Catastrophic forgetting is a persistent challenge for Custom Diffusion Models in continual learning, often addressed by minimizing interference between concepts. Instead, we exploit this very interference to learn common features among concepts." 
 cover:
     image: "paper2.png"
     alt: "Dimensions of a sausage dog"
     relative: true
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+    URL: "https://aaai.org/conference/aaai/aaai-26/"
+    Text: "AAAI Conference on Artificial Intelligence 2026"
 
 ---
 
@@ -19,19 +19,21 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper2.pdf)
+<!-- + [Paper](paper2.pdf)
 + [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk-model)
++ [Code and data](https://github.com/pmichaillat/wunk-model) -->
++ [Paper (Coming Soon)]()
++ [Code (Coming Soon)]()
 
 ---
 
 ##### Abstract
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Custom Diffusion Models (CDMs) offer impressive capabilities for personalization in generative modeling, yet they remain vulnerable to catastrophic forgetting when learning new concepts sequentially. Existing approaches primarily focus on minimizing interference between concepts, often neglecting the potential for positive inter-concept interactions. In this work, we present Forget Less by Learning from Parents (FLLP), a novel framework that introduces a parent-child inter-concept learning mechanism in hyperbolic space to mitigate forgetting. By embedding concept representations within a Lorentzian manifold, naturally suited to modeling tree-like hierarchies, we define parent-child relationships in which previously learned concepts serve as guidance for adapting to new ones. Our method not only preserves prior knowledge but also supports continual integration of new concepts. We validate FLLP on three public datasets and one synthetic benchmark, showing consistent improvements in both robustness and generalization.
 
 ---
 
-##### Figure 2: Dimensions of a sausage dog
+<!-- ##### Figure 2: Dimensions of a sausage dog
 
 ![](paper2.png)
 
@@ -58,4 +60,4 @@ url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs
 ##### Related material
 
 + [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
++ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs) -->
