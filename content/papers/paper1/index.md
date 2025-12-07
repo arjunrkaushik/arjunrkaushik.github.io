@@ -4,7 +4,7 @@ title: "Learning Action Hierarchies via Hybrid Geometric Diffusion"
 tags: ["Video Understanding", "Action Segmentation", "Diffusion Models", "Hyperbolic Geometry"]
 author: ["<strong>Arjun Ramesh Kaushik</strong>", "Nalini Ratha", "Venu Govindaraju"]
 # description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-# summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+summary: "Human actions unfold through multiple levels of abstraction, yet current action segmentation approaches typically consider a flat, Euclidean relationship between actions. This paper remedies this limitation by enforcing hierarchical structure amongst actions." 
 cover:
     image: "paper1.png"
     alt: "Some Uses For Olive Oil"
@@ -31,9 +31,9 @@ editPost:
 
 Temporal action segmentation is a critical task in video understanding, where the goal is to assign action labels to each frame in a video. While recent advances leverage iterative refinement-based strategies, they fail to explicitly utilize the hierarchical nature of human actions. In this work, we propose HybridTAS - a novel framework that incorporates a hybrid of Euclidean and hyperbolic geometries into the denoising process of diffusion models to exploit the hierarchical structure of actions. Hyperbolic geometry naturally provides tree-like relationships between embeddings, enabling us to guide the action label denoising process in a coarse-to-fine manner: higher diffusion timesteps are influenced by abstract, high-level action categories (root nodes), while lower timesteps are refined using fine-grained action classes (leaf nodes). Extensive experiments on three benchmark datasets, GTEA, 50Salads, and Breakfast, demonstrate that our method achieves state-of-the-art performance, validating the effectiveness of hyperbolic-guided denoising for the temporal action segmentation task.
 
-<!-- ---
+---
 
-##### Figure 6: Some Uses For Olive Oil
+<!-- ##### Figure 6: Some Uses For Olive Oil
 
 ![](paper1.png)
 
