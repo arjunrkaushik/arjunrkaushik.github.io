@@ -1,7 +1,7 @@
 ---
 title: "Forget Less by Learning from Parents through Hierarchical Relationships" 
 # date: 2004-12-28
-tags: ["Continual Learning","Catastrophic Forgetting","Diffusion Models"]
+tags: ["Continual Learning","Catastrophic Forgetting","Diffusion Models", "Hyperbolic Geometry"]
 author: ["<strong>Arjun Ramesh Kaushik</strong>", "Naresh Kumar Devulapally", "Vishnu Suresh Lokhande", "Nalini Ratha", "Venu Govindaraju"]
 # description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
 summary: "Catastrophic forgetting is a persistent challenge for Custom Diffusion Models in continual learning, often addressed by minimizing interference between concepts. Instead, we exploit this very interference to learn common features among concepts." 
